@@ -74,11 +74,12 @@ http://localhost:5173
 
 * **User Authentication & Data Modeling:**  
   Login and sign-up flows implemented through a basic authentication layer, allowing users to optionally log in via Spotify, with mock playlist data structured to mirror real API schemas and     ready for integration with future backend endpoints.
+  
 * **Advanced UI Layout & Interactions:**  
   Masonry-style grid with infinite scroll, optimized rendering, and custom Tailwind animations for smooth, high-performance interactions.
 
 * **Music Playback on Hover:**  
-  Dynamic audio preview: songs play on hover in the dashboard, enhancing the user experience without requiring page navigation.
+  Dynamic audio preview: songs play on hover in the dashboard done by the iTunes API, enhancing the user experience without requiring page navigation.
 
 * **Giphy Picker Integration:**  
   Users can search for and attach GIFs to posts using an integrated Giphy API picker for richer content.
